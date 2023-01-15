@@ -1,5 +1,5 @@
  const mongoose = require('mongoose');
- const mongoURI = `mongodb://127.0.0.1:27017/abhiKart`;
+ const mongoURI = `mongodb+srv://abhiscience:Mongo1234@abhinavcluster.b2daqtw.mongodb.net/abhiKart`;
 
  const connectToMongo = ()=>{
      mongoose.connect(mongoURI , ()=>{
