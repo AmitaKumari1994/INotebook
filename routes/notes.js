@@ -6,7 +6,7 @@ const { body, validationResult } = require('express-validator');
 
 // Route:1 Get all the notes using: GET "/api/auth/getuser". Login required 
 
-router.get('mongodb+srv://abhiscience:Mongo1234@abhinavcluster.b2daqtw.mongodb.net/abhiKart/fetchallnotes', fetchuser, async (req, res) => {
+router.get('mongodb+srv://abhiscience:Mongo1234@abhinavcluster.b2daqtw.mongodb.net/abhiKart/notes/fetchallnotes', fetchuser, async (req, res) => {
 
     try {
 
